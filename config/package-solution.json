@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "try-again-get-list-client-side-solution",
+    "id": "df49de0f-030e-46ba-8b65-3e0f9196790e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "tryAgainGetList description"
+      },
+      "longDescription": {
+        "default": "tryAgainGetList description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "try-again-get-list Feature",
+        "description": "The feature that activates elements of the try-again-get-list solution.",
+        "id": "137fee8d-7df4-45dc-b28e-ce65050fb02d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/try-again-get-list.sppkg"
+  }
+}
